@@ -55,7 +55,7 @@
 - (NSDictionary *)kf_flatten
 {
 	return [self kf_filter:^BOOL(id key, id item) {
-		return item != [NSNull null] &&
+		return item != [NSNull null] && key != [NSNull null] &&
 				!([item isKindOfClass:[NSString class]] && [(NSString *)item length] == 0);
 	}];
 }

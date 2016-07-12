@@ -14,16 +14,6 @@
 
 @implementation NSArrayCategory
 
-- (void)setUp
-{
-    [super setUp];
-}
-
-- (void)tearDown
-{
-    [super tearDown];
-}
-
 - (void)test_filter_block_with_items
 {
 	NSMutableArray *arrSrc  = [NSMutableArray arrayWithObjects:@1, @2, @3, @4, nil];

@@ -14,16 +14,6 @@
 
 @implementation NSDataCategory
 
-- (void)setUp
-{
-    [super setUp];
-}
-
-- (void)tearDown
-{
-    [super tearDown];
-}
-
 - (void)test_to_string
 {
 	NSString *str = @"Hello, world!";
