@@ -1,0 +1,6 @@
+target 'ObjC-KFStdLib_Tests' do
+  pod 'ObjC-KFStdLib', :path => '../'
+  
+  pod 'Specta'
+  pod 'Expecta'
+end
