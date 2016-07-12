@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4A620A1D1D35976D0033A4A0 /* NSArrayCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A620A1C1D35976D0033A4A0 /* NSArrayCategory.m */; };
+		4ACF61911D35A81800058174 /* NSDataCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF61901D35A81800058174 /* NSDataCategory.m */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -19,6 +20,7 @@
 		31947631F31B5F2B8D8759D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3DE6FCBAE567E821D7191598 /* Pods-ObjC-KFStdLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjC-KFStdLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjC-KFStdLib_Tests/Pods-ObjC-KFStdLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4A620A1C1D35976D0033A4A0 /* NSArrayCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayCategory.m; sourceTree = "<group>"; };
+		4ACF61901D35A81800058174 /* NSDataCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataCategory.m; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				4A620A1C1D35976D0033A4A0 /* NSArrayCategory.m */,
+				4ACF61901D35A81800058174 /* NSDataCategory.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -237,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ACF61911D35A81800058174 /* NSDataCategory.m in Sources */,
 				4A620A1D1D35976D0033A4A0 /* NSArrayCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
