@@ -14,11 +14,13 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ObjC-KFStdLib/Classes/**/*.{h,m}'
 
-  # s.resource_bundles = {
-  #   'ObjC-KFStdLib' => ['ObjC-KFStdLib/Assets/*.png']
-  # }
-
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+  # s.subspec 'Categories' do |ss|
+  #   ss.source_files = 'ObjC-KFStdLib/Classes/Categories/*.{h,m}'
+  # end
+  #
+  # s.subspec 'Utilities' do |ss|
+  #   ss.source_files = 'ObjC-KFStdLib/Classes/Utilities/*.{h,m}'
+  # end
 end

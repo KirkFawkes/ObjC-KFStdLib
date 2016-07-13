@@ -1,5 +1,9 @@
-target 'ObjC-KFStdLib_Tests' do
+target 'ObjC-KFStdLib_Example' do
   pod 'ObjC-KFStdLib', :path => '../'
-  
-  pod 'Expecta'
+
+  target 'ObjC-KFStdLib_Tests' do
+    inherit! :search_paths
+
+    pod 'Expecta'
+  end
 end

@@ -20,20 +20,6 @@
                ReferencedContainer = "container:ObjC-KFStdLib.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "ObjC-KFStdLib_Tests.xctest"
-               BlueprintName = "ObjC-KFStdLib_Tests"
-               ReferencedContainer = "container:ObjC-KFStdLib.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

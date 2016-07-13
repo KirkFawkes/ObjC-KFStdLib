@@ -7,39 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A620A1D1D35976D0033A4A0 /* NSArrayCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A620A1C1D35976D0033A4A0 /* NSArrayCategory.m */; };
-		4ACF61911D35A81800058174 /* NSDataCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF61901D35A81800058174 /* NSDataCategory.m */; };
-		4ACF61931D35AC8300058174 /* NSDictionaryCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF61921D35AC8300058174 /* NSDictionaryCategory.m */; };
-		4ACF61951D35B3BE00058174 /* UIImageCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF61941D35B3BE00058174 /* UIImageCategory.m */; };
+		4AC4A1DB1D361C1F00E8E125 /* NSArrayCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4A1D71D361C1F00E8E125 /* NSArrayCategory.m */; };
+		4AC4A1DC1D361C1F00E8E125 /* NSDataCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4A1D81D361C1F00E8E125 /* NSDataCategory.m */; };
+		4AC4A1DD1D361C1F00E8E125 /* NSDictionaryCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4A1D91D361C1F00E8E125 /* NSDictionaryCategory.m */; };
+		4AC4A1DE1D361C1F00E8E125 /* UIImageCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4A1DA1D361C1F00E8E125 /* UIImageCategory.m */; };
+		4E38489B0CD4139F22A6D351 /* libPods-ObjC-KFStdLib_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DF305E5E33AF3267D97EDC /* libPods-ObjC-KFStdLib_Tests.a */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* KFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* KFAppDelegate.m */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		74767CE8599953C05F0962E0 /* libPods-ObjC-KFStdLib_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 984C2148405BA5911012B8A6 /* libPods-ObjC-KFStdLib_Tests.a */; };
+		F3F74A573D7F9839F22E658D /* libPods-ObjC-KFStdLib_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF60D1161A4F7C693FA2E5A /* libPods-ObjC-KFStdLib_Example.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = "ObjC-KFStdLib";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		31947631F31B5F2B8D8759D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3DE6FCBAE567E821D7191598 /* Pods-ObjC-KFStdLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjC-KFStdLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjC-KFStdLib_Tests/Pods-ObjC-KFStdLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4A620A1C1D35976D0033A4A0 /* NSArrayCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayCategory.m; sourceTree = "<group>"; };
-		4ACF61901D35A81800058174 /* NSDataCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataCategory.m; sourceTree = "<group>"; };
-		4ACF61921D35AC8300058174 /* NSDictionaryCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryCategory.m; sourceTree = "<group>"; };
-		4ACF61941D35B3BE00058174 /* UIImageCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageCategory.m; sourceTree = "<group>"; };
+		33DDC64DA2820A7671B75426 /* Pods-ObjC-KFStdLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjC-KFStdLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjC-KFStdLib_Tests/Pods-ObjC-KFStdLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		41A0415C728AF60D2B9002F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4AC4A1D71D361C1F00E8E125 /* NSArrayCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayCategory.m; sourceTree = "<group>"; };
+		4AC4A1D81D361C1F00E8E125 /* NSDataCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataCategory.m; sourceTree = "<group>"; };
+		4AC4A1D91D361C1F00E8E125 /* NSDictionaryCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryCategory.m; sourceTree = "<group>"; };
+		4AC4A1DA1D361C1F00E8E125 /* UIImageCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageCategory.m; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* ObjC-KFStdLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjC-KFStdLib_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* ObjC-KFStdLib-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjC-KFStdLib-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* ObjC-KFStdLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjC-KFStdLib-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* KFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* KFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAppDelegate.m; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* ObjC-KFStdLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjC-KFStdLib_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		984C2148405BA5911012B8A6 /* libPods-ObjC-KFStdLib_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjC-KFStdLib_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8A23B19823E05CBD1CF565F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C779290667D2E72CE4771364 /* ObjC-KFStdLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "ObjC-KFStdLib.podspec"; path = "../ObjC-KFStdLib.podspec"; sourceTree = "<group>"; };
-		FA102CA54F38079489DA4A42 /* Pods-ObjC-KFStdLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjC-KFStdLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjC-KFStdLib_Tests/Pods-ObjC-KFStdLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		82DF305E5E33AF3267D97EDC /* libPods-ObjC-KFStdLib_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjC-KFStdLib_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A345B9ACAE069F00EB5AF6 /* Pods-ObjC-KFStdLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjC-KFStdLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjC-KFStdLib_Tests/Pods-ObjC-KFStdLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		99AB241BF0A95EDBC385ADB8 /* Pods-ObjC-KFStdLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjC-KFStdLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjC-KFStdLib_Example/Pods-ObjC-KFStdLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9AF60D1161A4F7C693FA2E5A /* libPods-ObjC-KFStdLib_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjC-KFStdLib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E9CD7F46517D3AE1286DDC /* ObjC-KFStdLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "ObjC-KFStdLib.podspec"; path = "../ObjC-KFStdLib.podspec"; sourceTree = "<group>"; };
+		C86BAF8E73D3E777F276E021 /* Pods-ObjC-KFStdLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjC-KFStdLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjC-KFStdLib_Example/Pods-ObjC-KFStdLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E6A81ACB6540E69A0E42C7EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				F3F74A573D7F9839F22E658D /* libPods-ObjC-KFStdLib_Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F5AB195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,7 +85,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				74767CE8599953C05F0962E0 /* libPods-ObjC-KFStdLib_Tests.a in Frameworks */,
+				4E38489B0CD4139F22A6D351 /* libPods-ObjC-KFStdLib_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +96,18 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for ObjC-KFStdLib */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				C248FC687801CD0F1C06C4AA /* Pods */,
+				FCAAB2E57F8EDEBB9AB5C594 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				6003F58A195388D20070C39A /* ObjC-KFStdLib_Example.app */,
 				6003F5AE195388D20070C39A /* ObjC-KFStdLib_Tests.xctest */,
 			);
 			name = Products;
@@ -80,18 +120,41 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				984C2148405BA5911012B8A6 /* libPods-ObjC-KFStdLib_Tests.a */,
+				9AF60D1161A4F7C693FA2E5A /* libPods-ObjC-KFStdLib_Example.a */,
+				82DF305E5E33AF3267D97EDC /* libPods-ObjC-KFStdLib_Tests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for ObjC-KFStdLib */ = {
+			isa = PBXGroup;
+			children = (
+				6003F59C195388D20070C39A /* KFAppDelegate.h */,
+				6003F59D195388D20070C39A /* KFAppDelegate.m */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			name = "Example for ObjC-KFStdLib";
+			path = "ObjC-KFStdLib";
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* ObjC-KFStdLib-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* ObjC-KFStdLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				4A620A1C1D35976D0033A4A0 /* NSArrayCategory.m */,
-				4ACF61901D35A81800058174 /* NSDataCategory.m */,
-				4ACF61921D35AC8300058174 /* NSDictionaryCategory.m */,
-				4ACF61941D35B3BE00058174 /* UIImageCategory.m */,
+				4AC4A1D71D361C1F00E8E125 /* NSArrayCategory.m */,
+				4AC4A1D81D361C1F00E8E125 /* NSDataCategory.m */,
+				4AC4A1D91D361C1F00E8E125 /* NSDictionaryCategory.m */,
+				4AC4A1DA1D361C1F00E8E125 /* UIImageCategory.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -110,18 +173,20 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				C779290667D2E72CE4771364 /* ObjC-KFStdLib.podspec */,
-				31947631F31B5F2B8D8759D6 /* README.md */,
-				A8A23B19823E05CBD1CF565F /* LICENSE */,
+				C7E9CD7F46517D3AE1286DDC /* ObjC-KFStdLib.podspec */,
+				E6A81ACB6540E69A0E42C7EF /* README.md */,
+				41A0415C728AF60D2B9002F1 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		C248FC687801CD0F1C06C4AA /* Pods */ = {
+		FCAAB2E57F8EDEBB9AB5C594 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FA102CA54F38079489DA4A42 /* Pods-ObjC-KFStdLib_Tests.debug.xcconfig */,
-				3DE6FCBAE567E821D7191598 /* Pods-ObjC-KFStdLib_Tests.release.xcconfig */,
+				99AB241BF0A95EDBC385ADB8 /* Pods-ObjC-KFStdLib_Example.debug.xcconfig */,
+				C86BAF8E73D3E777F276E021 /* Pods-ObjC-KFStdLib_Example.release.xcconfig */,
+				33DDC64DA2820A7671B75426 /* Pods-ObjC-KFStdLib_Tests.debug.xcconfig */,
+				95A345B9ACAE069F00EB5AF6 /* Pods-ObjC-KFStdLib_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -129,20 +194,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F5AD195388D20070C39A /* ObjC-KFStdLib_Tests */ = {
+		6003F589195388D20070C39A /* ObjC-KFStdLib_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ObjC-KFStdLib_Tests" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ObjC-KFStdLib_Example" */;
 			buildPhases = (
-				50730AF777EE016B9613D772 /* [CP] Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
-				05B4779C8B656C5D615E3C48 /* [CP] Embed Pods Frameworks */,
-				B5148D5DAA4B56BAECD8D16B /* [CP] Copy Pods Resources */,
+				3000484742BBA6BD769D75A0 /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				A9750C89AFAD47AA7BF1A2F0 /* [CP] Embed Pods Frameworks */,
+				D1055CD3D4CD91AF44DA6CBE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "ObjC-KFStdLib_Example";
+			productName = "ObjC-KFStdLib";
+			productReference = 6003F58A195388D20070C39A /* ObjC-KFStdLib_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* ObjC-KFStdLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ObjC-KFStdLib_Tests" */;
+			buildPhases = (
+				B31920AE606479D4FD853BFC /* [CP] Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+				7D61E4D1A2860959FFE5E3EB /* [CP] Embed Pods Frameworks */,
+				A23FDF4C94FE9B5A432E6203 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
 			name = "ObjC-KFStdLib_Tests";
 			productName = "ObjC-KFStdLibTests";
@@ -177,12 +263,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				6003F589195388D20070C39A /* ObjC-KFStdLib_Example */,
 				6003F5AD195388D20070C39A /* ObjC-KFStdLib_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F5AC195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -194,22 +289,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		05B4779C8B656C5D615E3C48 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjC-KFStdLib_Tests/Pods-ObjC-KFStdLib_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		50730AF777EE016B9613D772 /* [CP] Check Pods Manifest.lock */ = {
+		3000484742BBA6BD769D75A0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -224,7 +304,22 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B5148D5DAA4B56BAECD8D16B /* [CP] Copy Pods Resources */ = {
+		7D61E4D1A2860959FFE5E3EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjC-KFStdLib_Tests/Pods-ObjC-KFStdLib_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A23FDF4C94FE9B5A432E6203 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,23 +334,93 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjC-KFStdLib_Tests/Pods-ObjC-KFStdLib_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A9750C89AFAD47AA7BF1A2F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjC-KFStdLib_Example/Pods-ObjC-KFStdLib_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B31920AE606479D4FD853BFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1055CD3D4CD91AF44DA6CBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjC-KFStdLib_Example/Pods-ObjC-KFStdLib_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F59E195388D20070C39A /* KFAppDelegate.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F5AA195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ACF61911D35A81800058174 /* NSDataCategory.m in Sources */,
-				4A620A1D1D35976D0033A4A0 /* NSArrayCategory.m in Sources */,
-				4ACF61931D35AC8300058174 /* NSDictionaryCategory.m in Sources */,
-				4ACF61951D35B3BE00058174 /* UIImageCategory.m in Sources */,
+				4AC4A1DC1D361C1F00E8E125 /* NSDataCategory.m in Sources */,
+				4AC4A1DB1D361C1F00E8E125 /* NSArrayCategory.m in Sources */,
+				4AC4A1DD1D361C1F00E8E125 /* NSDictionaryCategory.m in Sources */,
+				4AC4A1DE1D361C1F00E8E125 /* UIImageCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* ObjC-KFStdLib_Example */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -340,10 +505,43 @@
 			};
 			name = Release;
 		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99AB241BF0A95EDBC385ADB8 /* Pods-ObjC-KFStdLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjC-KFStdLib/ObjC-KFStdLib-Prefix.pch";
+				INFOPLIST_FILE = "ObjC-KFStdLib/ObjC-KFStdLib-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C86BAF8E73D3E777F276E021 /* Pods-ObjC-KFStdLib_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjC-KFStdLib/ObjC-KFStdLib-Prefix.pch";
+				INFOPLIST_FILE = "ObjC-KFStdLib/ObjC-KFStdLib-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA102CA54F38079489DA4A42 /* Pods-ObjC-KFStdLib_Tests.debug.xcconfig */;
+			baseConfigurationReference = 33DDC64DA2820A7671B75426 /* Pods-ObjC-KFStdLib_Tests.debug.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -365,8 +563,9 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DE6FCBAE567E821D7191598 /* Pods-ObjC-KFStdLib_Tests.release.xcconfig */;
+			baseConfigurationReference = 95A345B9ACAE069F00EB5AF6 /* Pods-ObjC-KFStdLib_Tests.release.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -390,6 +589,15 @@
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
 				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ObjC-KFStdLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
