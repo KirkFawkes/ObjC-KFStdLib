@@ -60,6 +60,16 @@
 	expect(result[@6]).notTo.beNil();
 }
 
+- (void)test_filter_empty_dictionary
+{
+	NSDictionary *src = @{};
+	NSDictionary *result = [src kf_filter:^BOOL (NSNumber *key, NSString *item) {
+		return YES;
+	}];
+	
+	expect(result).to.equal(src);
+}
+
 - (void)test_remove_keys
 {
 	NSDictionary *result = [self.testDictionary kf_removeKeys:@[@3, @6]];
