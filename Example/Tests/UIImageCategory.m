@@ -37,7 +37,7 @@
 	expect(result.size).to.equal(dstSize);
 }
 
-- (void)test_image_scaled_to_fit_size
+- (void)test_image_scaled_to_fit_size_portrait
 {
 	UIImage *src = self.initialImage;
 	
@@ -46,6 +46,17 @@
 	UIImage *result = [UIImage kf_imageWithImage:src scaledToFitSize:dstSize];
 	expect(result.size.width).to.equal(dstSize.width);
 	expect(result.size.height).to.equal(15.f);
+}
+
+- (void)test_image_scaled_to_fit_size_landscape
+{
+	UIImage *src = self.initialImage;
+	
+	const CGSize dstSize = CGSizeMake(40, 10);
+	
+	UIImage *result = [UIImage kf_imageWithImage:src scaledToFitSize:dstSize];
+	expect(result.size.height).to.equal(dstSize.height);
+	expect(result.size.width).to.equal(20);
 }
 
 @end
