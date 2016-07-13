@@ -7,4 +7,5 @@ scheme: ObjC-KFStdLib-Example
 source_directory: ObjC-KFStdLib/Classes
 build_directory: /Users/travis/Library/Developer/Xcode/DerivedData/
 binary_basename: ObjC-KFStdLib_Example
-
+ignore:
+  - ../*
