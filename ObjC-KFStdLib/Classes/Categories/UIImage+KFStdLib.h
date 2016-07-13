@@ -8,6 +8,8 @@
 
 @interface UIImage (KFStdLib)
 
++ (UIImage *)kf_imageWithSize:(CGSize)size andColor:(UIColor *)color;
+
 + (UIImage *)kf_imageWithImage:(UIImage *)image scaledToSize:(CGSize)newSize;
 + (UIImage *)kf_imageWithImage:(UIImage *)image scaledToFitSize:(CGSize)newSize;
 
