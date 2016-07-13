@@ -15,6 +15,9 @@
 		4AD9A3981D366561007C7A10 /* TestingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD9A3971D366561007C7A10 /* TestingStoryboard.storyboard */; };
 		4AD9A39A1D3665A8007C7A10 /* UIStoryboardCategoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A3991D3665A8007C7A10 /* UIStoryboardCategoryTest.m */; };
 		4AD9A39B1D3666FB007C7A10 /* TestingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD9A3971D366561007C7A10 /* TestingStoryboard.storyboard */; };
+		4AD9A39D1D36685C007C7A10 /* UIVIewCategoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9A39C1D36685C007C7A10 /* UIVIewCategoryTest.m */; };
+		4AD9A39F1D3668BD007C7A10 /* TestingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AD9A39E1D3668BD007C7A10 /* TestingView.xib */; };
+		4AD9A3A01D3668BD007C7A10 /* TestingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AD9A39E1D3668BD007C7A10 /* TestingView.xib */; };
 		4E38489B0CD4139F22A6D351 /* libPods-ObjC-KFStdLib_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DF305E5E33AF3267D97EDC /* libPods-ObjC-KFStdLib_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -49,6 +52,8 @@
 		4AD9A3951D3662DA007C7A10 /* KFDebuggingToolsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFDebuggingToolsTest.m; sourceTree = "<group>"; };
 		4AD9A3971D366561007C7A10 /* TestingStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TestingStoryboard.storyboard; sourceTree = "<group>"; };
 		4AD9A3991D3665A8007C7A10 /* UIStoryboardCategoryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIStoryboardCategoryTest.m; sourceTree = "<group>"; };
+		4AD9A39C1D36685C007C7A10 /* UIVIewCategoryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIVIewCategoryTest.m; sourceTree = "<group>"; };
+		4AD9A39E1D3668BD007C7A10 /* TestingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestingView.xib; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ObjC-KFStdLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjC-KFStdLib_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -164,6 +169,7 @@
 				4AC4A1DA1D361C1F00E8E125 /* UIImageCategory.m */,
 				4AD9A3951D3662DA007C7A10 /* KFDebuggingToolsTest.m */,
 				4AD9A3991D3665A8007C7A10 /* UIStoryboardCategoryTest.m */,
+				4AD9A39C1D36685C007C7A10 /* UIVIewCategoryTest.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -176,6 +182,7 @@
 				6003F5B8195388D20070C39A /* InfoPlist.strings */,
 				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
 				4AD9A3971D366561007C7A10 /* TestingStoryboard.storyboard */,
+				4AD9A39E1D3668BD007C7A10 /* TestingView.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -285,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AD9A39B1D3666FB007C7A10 /* TestingStoryboard.storyboard in Resources */,
+				4AD9A39F1D3668BD007C7A10 /* TestingView.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AD9A3981D366561007C7A10 /* TestingStoryboard.storyboard in Resources */,
+				4AD9A3A01D3668BD007C7A10 /* TestingView.xib in Resources */,
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +421,7 @@
 				4AD9A3961D3662DA007C7A10 /* KFDebuggingToolsTest.m in Sources */,
 				4AC4A1DD1D361C1F00E8E125 /* NSDictionaryCategory.m in Sources */,
 				4AD9A39A1D3665A8007C7A10 /* UIStoryboardCategoryTest.m in Sources */,
+				4AD9A39D1D36685C007C7A10 /* UIVIewCategoryTest.m in Sources */,
 				4AC4A1DE1D361C1F00E8E125 /* UIImageCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
