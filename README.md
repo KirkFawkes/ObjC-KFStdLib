@@ -1,8 +1,5 @@
 # ObjC-KFStdLib
 
-https://travis-ci.org/KirkFawkes/ObjC-KFStdLib.svg?branch=master
-http://img.shields.io/travis/KirkFawkes/ObjC-KFStdLib.svg?style=flat
-
 [![CI Status](https://travis-ci.org/KirkFawkes/ObjC-KFStdLib.svg?branch=master)](https://travis-ci.org/KirkFawkes/ObjC-KFStdLib)
 [![Coverage Status](https://coveralls.io/repos/github/KirkFawkes/ObjC-KFStdLib/badge.svg?branch=master)](https://coveralls.io/github/KirkFawkes/ObjC-KFStdLib?branch=master)
 
