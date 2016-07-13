@@ -16,5 +16,5 @@ script:
   - set -o pipefail && xcodebuild test -workspace Example/ObjC-KFStdLib.xcworkspace -scheme ObjC-KFStdLib-Example -destination 'platform=iOS Simulator,name=iPhone 6' -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=YES | xcpretty
   - pod lib lint
 after_success:
-  - bundle exec slather
+  - slather
 
