@@ -1,9 +1,10 @@
 # ObjC-KFStdLib
 
-[![CI Status](http://img.shields.io/travis/Igor Zubko/ObjC-KFStdLib.svg?style=flat)](https://travis-ci.org/Igor Zubko/ObjC-KFStdLib)
-[![Version](https://img.shields.io/cocoapods/v/ObjC-KFStdLib.svg?style=flat)](http://cocoapods.org/pods/ObjC-KFStdLib)
-[![License](https://img.shields.io/cocoapods/l/ObjC-KFStdLib.svg?style=flat)](http://cocoapods.org/pods/ObjC-KFStdLib)
-[![Platform](https://img.shields.io/cocoapods/p/ObjC-KFStdLib.svg?style=flat)](http://cocoapods.org/pods/ObjC-KFStdLib)
+https://travis-ci.org/KirkFawkes/ObjC-KFStdLib.svg?branch=master
+http://img.shields.io/travis/KirkFawkes/ObjC-KFStdLib.svg?style=flat
+
+[![CI Status](https://travis-ci.org/KirkFawkes/ObjC-KFStdLib.svg?branch=master)](https://travis-ci.org/KirkFawkes/ObjC-KFStdLib)
+[![Coverage Status](https://coveralls.io/repos/github/KirkFawkes/ObjC-KFStdLib/badge.svg?branch=master)](https://coveralls.io/github/KirkFawkes/ObjC-KFStdLib?branch=master)
 
 ## Example
 

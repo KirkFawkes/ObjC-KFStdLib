@@ -1,0 +1,9 @@
+# .slather.yml
+
+coverage_service: coveralls
+workspace: Example/ObjC-KFStdLib.xcworkspace
+xcodeproj: Example/ObjC-KFStdLib.xcodeproj
+scheme: ObjC-KFStdLib-Example
+source_directory: ObjC-KFStdLib/Classes
+binary_basename: ObjC-KFStdLib_Example
+
