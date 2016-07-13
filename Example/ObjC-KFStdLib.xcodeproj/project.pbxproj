@@ -10,6 +10,7 @@
 		4A620A1D1D35976D0033A4A0 /* NSArrayCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A620A1C1D35976D0033A4A0 /* NSArrayCategory.m */; };
 		4ACF61911D35A81800058174 /* NSDataCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF61901D35A81800058174 /* NSDataCategory.m */; };
 		4ACF61931D35AC8300058174 /* NSDictionaryCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF61921D35AC8300058174 /* NSDictionaryCategory.m */; };
+		4ACF61951D35B3BE00058174 /* UIImageCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF61941D35B3BE00058174 /* UIImageCategory.m */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,6 +24,7 @@
 		4A620A1C1D35976D0033A4A0 /* NSArrayCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayCategory.m; sourceTree = "<group>"; };
 		4ACF61901D35A81800058174 /* NSDataCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataCategory.m; sourceTree = "<group>"; };
 		4ACF61921D35AC8300058174 /* NSDictionaryCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryCategory.m; sourceTree = "<group>"; };
+		4ACF61941D35B3BE00058174 /* UIImageCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageCategory.m; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -89,6 +91,7 @@
 				4A620A1C1D35976D0033A4A0 /* NSArrayCategory.m */,
 				4ACF61901D35A81800058174 /* NSDataCategory.m */,
 				4ACF61921D35AC8300058174 /* NSDictionaryCategory.m */,
+				4ACF61941D35B3BE00058174 /* UIImageCategory.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -246,6 +249,7 @@
 				4ACF61911D35A81800058174 /* NSDataCategory.m in Sources */,
 				4A620A1D1D35976D0033A4A0 /* NSArrayCategory.m in Sources */,
 				4ACF61931D35AC8300058174 /* NSDictionaryCategory.m in Sources */,
+				4ACF61951D35B3BE00058174 /* UIImageCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
